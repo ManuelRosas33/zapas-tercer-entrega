@@ -8,16 +8,25 @@ header {
 
     .navbar {
         margin: 15px 0px;
+        
         .navbar-brand img {
             width: 150px;
             margin: 15px;
             &:hover {transform: scale(1.1);} 
         }
         .container-fluid {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            width: 100%;
+            padding-right: calc(var(--bs-gutter-x) * .5);
+            padding-left: calc(var(--bs-gutter-x) * .5);
+            margin-right: auto;
+            margin-left: auto;
             margin-right: 25px;
             margin-left: 25px;
         
 
+}
             .navbar-toggler{
                 width: auto;
                 height: auto;
