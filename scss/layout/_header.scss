@@ -14,7 +14,12 @@ header {
             margin: 15px;
             &:hover {transform: scale(1.1);} 
         }
+        .container-fluid {
+            margin-right: 25px;
+            margin-left: 25px;
         
+
+        }
             .navbar-toggler{
                 width: auto;
                 height: auto;
@@ -42,6 +47,6 @@ header {
                 align-items: center;
                 margin: 0px 100px;
             }
-        }
+}
     
 
