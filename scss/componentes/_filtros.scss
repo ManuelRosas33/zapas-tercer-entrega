@@ -1,0 +1,26 @@
+.container-filtros {
+
+    align-items: center;
+    .btn-primary-filtros {
+        margin: 30px 130px;
+        color: #0b0202;
+        background-color: #ffffff;
+        &:hover {
+            border: none;
+            background-color: #e3e3e3;
+        }
+    }
+
+    .precios {
+        .btn-primary-filtrar {
+            margin: 10px 10px;
+            color: #0b0202;
+            background-color: #d5d2d2;
+            &:hover {
+                border: none;
+                background-color: #e3e3e3;
+            }
+        }
+    }
+}
+

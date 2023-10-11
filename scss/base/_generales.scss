@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+/* Selecotor universal*/
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* etiquetas permanentes */
+
+h1 {
+    font-size: 3em;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    margin:15px 20px;
+    border-radius:5px ;
+}
+
+h2 { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    margin: 15px 15px;
+    padding: 5px 5px;
+    font-weight: bold;
+}
+h3 {display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bolder;
+    margin: 5px 100px;
+    padding: 5px 5px
+    
+}
+
+h4  {
+    display: flex;
+    justify-content: start;
+    font-size: 1.2em;
+    margin: 5px;
+    text-align: center;
+    margin-left: 30px ;
+}
+
+h5 {
+    font-size: 1.1em;
+    margin: 10px;
+    display: flex;
+    text-align: start;
+
+}
+
+h6 { 
+    margin: 5px;
+    font-size: 1em;
+    text-align: center;
+    color: #0c0202;
+
+}
+
+p {
+    line-height: 1em;
+    margin: 10px;
+    
+    
+
+}
+
+.promo-hot {
+    text-align: center;
+    margin: 2px;
+    background-color: rgb(152, 44, 44);
+    border-radius:5px ;
+    font-size: 1.5em;
+}

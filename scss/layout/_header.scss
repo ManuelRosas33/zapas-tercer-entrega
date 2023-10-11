@@ -1,0 +1,50 @@
+
+/*header */
+header {
+    margin: 0px 0px;
+    padding: 4px 0px;
+    background-color: #2e2d2d;
+    border: 2px solid rgb(0, 0, 0);
+
+    .navbar {
+        margin: 15px 0px;
+        .navbar-brand img {
+            width: 150px;
+            margin: 15px;
+            &:hover {transform: scale(1.1);} 
+        }
+        .container-fluid {
+            margin-right: 25px;
+            margin-left: 25px;
+        
+
+            .navbar-toggler{
+                width: auto;
+                height: auto;
+                background-color: #d7d7d7; 
+                border: none }
+
+            }
+            .navbar-collapse{
+                display: flex;
+                justify-content: end;
+
+                .nav-link {
+                    font-size: 1.8em;
+                    color: #ffffff;
+                    margin-right: 15px;
+                    margin: 5px;
+                    &:hover {transform: scale(1.1);}
+                }
+            }
+
+            .busqueda {
+                background-color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px 100px;
+            }
+        }
+    
+}
