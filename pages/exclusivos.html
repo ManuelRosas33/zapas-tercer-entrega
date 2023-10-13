@@ -10,10 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
 <!--Link hoja maestra-->
-    <link rel="stylesheet" href="..//css/stilo.css"> 
+    <link rel="stylesheet" href="../css/stilo.css"> 
 
 </head>
-<h6 class="promo-hot">😈 Hasta el 17 de Mayo 100% de descuento en productos nike 🔥</h6>
+
 
 <body>
 
@@ -56,19 +56,23 @@
     <!-- final nav-->
 </header>
 <!--final header-->
-<main>
-    <section id="grid-layout-ninos" >
+
+<!--Empieza main-->
+
+<main>  
+
+    <section id="grid-layout-exclusivos" >
 
         <h1>ZAPATILLAS INTELIGENTES</h1>
-    
+
         <!--Empieza filtros -->
         <section class="container-filtros">
-    
-    
+        
+
                 <button class="btn btn-primary-filtros" data-bs-toggle="collapse" data-bs-target="#containerCollapse">
                     Seleccion por filtros
                 </button>
-    
+
                 <div class="container collapse" id="containerCollapse">
                     
                     <select name="producto-generales" > 
@@ -77,21 +81,21 @@
                         <option value="zapato3">Precio mas alto</option>
                         <option value="zapato3">Precio mas bajo</option>
                     </select>
-    
+
                     <select name="producto-direferentes">
                         <option value="producto">Busos</option>
                         <option value="producto">Pantalones</option>
                         <option value="producto">Medias</option>
                         <option value="producto">Camisas</option>
                     </select>
-    
+
                     <select name="producto-genero">
                         <option value="generos">Hombre</option>
                         <option value="generos">Mujer</option>
                         <option value="generos">Nuño</option>
                         <option value="generos">Unisex</option>
                     </select>
-    
+
                     <select name="producto-marcas">
                         <option value="marca">Nike</option>
                         <option value="marca">Adiddas</option>
@@ -100,16 +104,16 @@
                         <option value="marca">Fila</option>
                         <option value="marca">Jordan</option>
                     </select>
-    
+
                     <select name="producto-talle">
-                        <option value="talla">Talla 26 </option>
-                        <option value="talla">Talla 27 </option>
-                        <option value="talla">Talla 28</option>
-                        <option value="talla">Talla 29</option>
-                        <option value="talla">Talla 30</option>
-                        <option value="talla">Talla 31</option>
+                        <option value="talla">Talla 40 </option>
+                        <option value="talla">Talla 41 </option>
+                        <option value="talla">Talla 42</option>
+                        <option value="talla">Talla 43</option>
+                        <option value="talla">Talla 44</option>
+                        <option value="talla">Talla 45</option>
                     </select>
-    
+
                     <div class="precios row mt-4">
                         <div class="col-md-4">
                             <label for="min-price">Precio Mínimo:</label>
@@ -124,28 +128,14 @@
                         </div>
                     </div>
                 </div>
+
         </section>
         <!--Termina filtros-->
-
-        <!--empieza descuentos-->
-        <section class="container-descuentos">
-            <div class="row">
-                <div class="col-xs-3 col-md-12 col-lg-12 ">
-
-                        <a href="#" target="_blank">
-                        <img src="../img/descuento/descuento-nike.jpg" class="img-fluid"  alt="Imagenes de descuento"  >
-                        </a>
-                </div>
-                
-                
-            </div>    
-        </section>
-        <!--termina descuentos-->
 
         <!--empiezan productos-->
 
         <section id="productos">
-            <section class="container-prudctos-ninos">
+            <section class="container-prudctos-exclusivos">
                 <div class="row">
                     <div class="col-xs-6 col-md-3 col-lg-3">
                         <div class="card">
@@ -239,8 +229,10 @@
                     </div>
                 </div>
 
+
                 <div class="row">
                     <div class="col-xs-6 col-md-3 col-lg-3">
+    
                         <div class="card">
                             <img src="../img/zapas_index/Zapatillas Adidas Nmdr1 primeblue Hombre.jpg" class="card-img-top" alt="Zapatillas Adiddas M45">
                             <div class="card-body">
@@ -250,7 +242,7 @@
                             </div>
                         </div>
                     </div>        
-                    
+                
                     <div class="col-xs-6 col-md-3 col-lg-3">
                         <div class="card" >
                             <img src="../img/zapas_index/Zapatilla Nike Dunk Low Hombre.jpg" class="card-img-top" alt="Zapatillas Adiddas M45" >
@@ -273,7 +265,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-xs-6 col-md-3 col-lg-3">
                         <div class="card" >
                             <img src="../img/zapas_index/Zapatillas Puma Rider Fv.jpg" class="card-img-top" alt="Zapatillas Adiddas M45" >
@@ -285,57 +276,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-xs-6 col-md-3 col-lg-3">
-                        <div class="card">
-                            <img src="../img/zapas_index/Zapatillas Adidas Nmdr1 primeblue Hombre.jpg" class="card-img-top" alt="Zapatillas Adiddas M45">
-                            <div class="card-body">
-                            <h5 class="card-title">Zapatillas Adidas  Hombre</h5>
-                            <p class="card-text">$99.999</p>
-                            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                            </div>
-                        </div>
-                    </div>        
-                    
-                    <div class="col-xs-6 col-md-3 col-lg-3">
-                        <div class="card" >
-                            <img src="../img/zapas_index/Zapatilla Nike Dunk Low Hombre.jpg" class="card-img-top" alt="Zapatillas Adiddas M45" >
-                            <div class="card-body">
-                            <h5 class="card-title">Zapatilla Nike Dunk Low Hombre</h5>
-                            <p class="card-text">$99.999</p>
-                            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-xs-6 col-md-3 col-lg-3">
-                        <div class="card" >
-                            <img src="../img/zapas_index/Zapatilla Jordan Cmtf 2 Mujer.jpg" class="card-img-top" alt="Zapatillas Adiddas M45" >
-                            <div class="card-body">
-                            <h5 class="card-title">Zapatilla Jordan Cmtf 2 Mujer</h5>
-                            <p class="card-text">$99.999</p>
-                            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-6 col-md-3 col-lg-3">
-                        <div class="card" >
-                            <img src="../img/zapas_index/Zapatillas Puma Rider Fv.jpg" class="card-img-top" alt="Zapatillas Adiddas M45" >
-                            <div class="card-body">
-                            <h5 class="card-title">Zapatillas Puma Rider Fv</h5>
-                            <p class="card-text">$99.999</p>
-                            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </section>
-        </section>
+        <!--termina productos-->
 
         <!--empieza publicidad-->
         <section class="container-publicidad">
@@ -343,7 +284,7 @@
                 <div class="col">
                     
                     
-                    <div id="publicidad-ninos" >
+                    <div id="publicidad-exclusivos" >
                         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -379,49 +320,8 @@
             </div>
         </section>
         <!-- termina seccion publicidad-->
-
-        <!--empieza marcas seleccioandad-->
-
-        <h3> SELECCION POR MARCAS</h3>
-
-        <section class="container-seleccionadas" >
-            <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-3 ">
-                    <a href="https://www.adidas.cl/" target="_blank">
-                        <img src="../img/logos_masrcas/adidas-9.svg" alt="logo marca adiddas" class="img-fluid">
-                    </a>
-                </div>
-                <div  class="col-xs-12 col-md-6 col-lg-3">
-                    <a href="https://www.fila.com/" target="_blank">
-                        <img src="../img/logos_masrcas/fila.png"  alt="logo marca fila" >
-                    </a>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
-                    <a href="https://www.nike.com/es/" target="_blank">
-                        <img src="../img/logos_masrcas/nike-11.svg" alt="logo marca nike" >
-                    </a>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
-                    <a href="https://cl.puma.com/" target="_blank">
-                        <img src="../img/logos_masrcas/puma-logo.svg" alt="logo marca puma" >
-                    </a>
-                </div>
-                    
-            </div>
-        </section>
-
-    
-        <!--termina marcas seleccioandad-->
-
-    </section>
+    </section>    
 </main>
-
-<!--Termina Main-->
-
-
-
-
-
 
 
 <!--empieza footer-->

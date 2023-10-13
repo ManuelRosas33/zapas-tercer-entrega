@@ -1,9 +1,10 @@
-#grid-layout-hombres {
+
+#grid-layout-exclusivos  {
     display: grid;
     grid-template-columns: 100% ;
-    background-color: rgba(97, 21, 21, 0.857);
+    background-color: rgba(72, 30, 121, 0.824);
     margin: 0px 0px;
-    padding: 0px 0px;
+    padding: 0px 0px; 
 
     .container-filtros {
         display: flex;
@@ -18,7 +19,6 @@
         padding: 20px;
         display: flex;
         justify-content: center;
-        
         
         .card { 
             width: 100%;
@@ -62,37 +62,34 @@
             
         }
     }
-    .container-descuentos { 
+
+    #publicidad-exclusivos {
         display: flex;
         justify-content: center;
-        margin: 5px 50px 0px;
-        img {
+        margin: 25px;
+            
+        #carouselExampleAutoplaying { 
             display: flex;
             justify-content: center;
-            height: 350px;
-            width: auto;
-            margin: 15px 5px ;
-            border-radius: 5px;
-        }
-
-    }
-
-}
-
-    /*marcas seleccionadas*/
-
-.container-seleccionadas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:0px 0px;
-    img {
-        margin: 25px;
-        width: 200px;
-        &:hover {
-            transform: scale(1.2);
-        }
     
+            .carousel {
+                width:500px ;
+                display: flex;
+                justify-content: center;
+                    
+            }
+    
+            .carousel-item img { 
+                height: 550px;
+                width: 300px;
+                display: flex;
+                justify-content: center;
+                border: 2px ride #5d5d5d;
+            }
+        }
+            
     }
+
+
 
 }
